@@ -1,5 +1,7 @@
 # DiscordOverlayHook
 
+++ REP @samueltulach
+
 Discord's whitelisted internal module (DiscordHook64.dll), which is loaded by games using SetWindowHookEx, 
 simply copies the framebuffer from a memory-mapped file. The code snippet from this repo is pretty much self-explanatory:
 
